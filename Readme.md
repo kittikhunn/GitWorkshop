@@ -12,7 +12,7 @@ git config --local user.email="kittikhun.scy@gmail.com"
 git config --global core.editor "code --new-window--wait"
 ```
 
-### System
+
 ```
 git config --system -e
 ```
