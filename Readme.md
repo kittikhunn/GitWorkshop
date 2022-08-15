@@ -65,3 +65,7 @@ git rm <filename> #ลบบน working space
 git rm --cached <filename> #ลบบนตัวกลางกับ repo
 ```
 
+## Git diff
+```
+git diff
+git diff --cached
