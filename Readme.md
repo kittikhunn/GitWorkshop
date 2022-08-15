@@ -26,7 +26,7 @@ git log --since=1.days
 git log --until=1.days
 git log --since=2.weeks --until=1.days
 git log --after=2.weeks --before=1.days
-git log --grep="readme" #Search files that contain "readme"
+git log --grep="readme" Search files that contain "readme"
 git log --author="kittikhunn"
 git log 34b3..HEAD
 git log Readme.md
@@ -86,5 +86,5 @@ git diff
 git diff --cached
 git diff
 git diff 9f53..4dde
-git diff HEAD..HEAD~2 #จากตัวใหม่ล่าสุดไปตัวก่อนหน้า (move back)
-git diff HEAD~2..HEAD #จากตัวก่อนหน้ามาตัวล่าสุด (move forward)
+git diff HEAD..HEAD~2 จากตัวใหม่ล่าสุดไปตัวก่อนหน้า (move back)
+git diff HEAD~2..HEAD จากตัวก่อนหน้ามาตัวล่าสุด (move forward)
