@@ -69,11 +69,10 @@ git rm --cached <filename> #ลบบนตัวกลางกับ repo
 ```
 git diff
 <<<<<<< HEAD
+<<<<<<< HEAD
 git diff --cached
 git diff
 git diff 9f53..4dde
 git diff HEAD..HEAD~2 จากตัวใหม่ล่าสุดไปตัวก่อนหน้า (move back)
 git diff HEAD~2..HEAD จากตัวก่อนหน้ามาตัวล่าสุด (move forward)
-=======
 git diff --cached
->>>>>>> parent of d408796 (Update readme, add exploring the past)
