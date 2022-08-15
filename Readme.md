@@ -44,7 +44,7 @@ git log --oneline --graph --decorate3db7
 ```
 git ls-tree HEAD
 git ls-tree main
-git ls-tree db53 #use git log id
+git ls-tree db53 (use git log id)
 ```
 
 ## Git add and commit
@@ -68,12 +68,9 @@ git rm --cached <filename> (ลบบนตัวกลางกับ repo)
 ## Git diff
 ```
 git diff
-<<<<<<< HEAD
-<<<<<<< HEAD
 git diff --cached
 git diff
 git diff 9f53..4dde
-<<<<<<< HEAD
 git diff HEAD..HEAD~2 จากตัวใหม่ล่าสุดไปตัวก่อนหน้า (move back)
 git diff HEAD~2..HEAD จากตัวก่อนหน้ามาตัวล่าสุด (move forward)
 git diff --cached
