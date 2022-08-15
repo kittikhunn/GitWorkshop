@@ -39,3 +39,22 @@ git log --stat
 git log --format=oneline
 git log --oneline
 git log --oneline --graph --decorate3db7
+
+## Git ls-tree
+```
+git ls-tree HEAD
+git ls-tree main
+git ls-tree db53 #use git log id
+```
+
+## Git add and commit
+```
+git add .
+git add Readme.md
+git commit -m "messgae"
+git commit -am "add and commit
+git commit --amend
+git commit -m "commit and add new message"
+git remote add origin <URL of remote repository>
+git remote -v
+```
