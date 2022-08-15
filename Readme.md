@@ -1,4 +1,4 @@
-# Git Config
+# Git Configuration
 ## Configuration Level
 
 ## Local
@@ -61,8 +61,8 @@ git remote -v
 
 ## Git Remove (git rm)
 ```
-git rm <filename> #ลบบน working space
-git rm --cached <filename> #ลบบนตัวกลางกับ repo
+git rm <filename> (ลบบน working space)
+git rm --cached <filename> (ลบบนตัวกลางกับ repo)
 ```
 
 ## Git diff
@@ -73,6 +73,7 @@ git diff
 git diff --cached
 git diff
 git diff 9f53..4dde
+<<<<<<< HEAD
 git diff HEAD..HEAD~2 จากตัวใหม่ล่าสุดไปตัวก่อนหน้า (move back)
 git diff HEAD~2..HEAD จากตัวก่อนหน้ามาตัวล่าสุด (move forward)
 git diff --cached
