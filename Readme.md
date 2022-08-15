@@ -1,4 +1,4 @@
-# Git Config
+# Git Configuration
 ## Configuration Level
 
 ## Local
