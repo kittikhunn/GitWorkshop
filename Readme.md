@@ -39,22 +39,37 @@ git log --stat
 git log --format=oneline
 git log --oneline
 git log --oneline --graph --decorate3db7
+```
+
+## Git Show
+```
+git show 4dde
+git show HEAD
+git show HEAD^
+git show HEAD^^^
+git show HEAD~5
+```
+
+## Git blame
+```
+git blame Readme.md
+```
 
 ## Git ls-tree
 ```
 git ls-tree HEAD
 git ls-tree main
-git ls-tree db53 (use git log id)
+git ls-tree 13db (use git id)
 ```
 
 ## Git add and commit
 ```
 git add .
 git add Readme.md
-git commit -m "messgae"
-git commit -am "add and commit
+git commit -m "commit message"
+git commit -am "add and commit"
 git commit --amend
-git commit -m "commit and add new message"
+git commit --amend -m "commit and add new message"
 git remote add origin <URL of remote repository>
 git remote -v
 ```
@@ -73,4 +88,4 @@ git diff
 git diff 9f53..4dde
 git diff HEAD..HEAD~2 จากตัวใหม่ล่าสุดไปตัวก่อนหน้า (move back)
 git diff HEAD~2..HEAD จากตัวก่อนหน้ามาตัวล่าสุด (move forward)
-git diff --cached
+```
