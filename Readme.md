@@ -58,3 +58,10 @@ git commit -m "commit and add new message"
 git remote add origin <URL of remote repository>
 git remote -v
 ```
+
+## Git Remove (git rm)
+```
+git rm <filename> #ลบบน working space
+git rm --cached <filename> #ลบบนตัวกลางกับ repo
+```
+
